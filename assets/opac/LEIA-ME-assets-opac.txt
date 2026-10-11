@@ -1,0 +1,58 @@
+PACOTE DE ASSETS — OPAC SECULT SANTOS — v1
+================================================
+
+Estrutura sugerida no GitHub:
+assets/opac/
+
+Banner responsivo:
+- banner-mobile-1024x1536.webp    -> celulares até 750 px
+- banner-tablet-1448x1086.webp    -> 751–950 px
+- banner-laptop-1774x887.webp     -> 951–1150 px
+- banner-desktop-2167x726.webp    -> acima de 1150 px
+
+Outros assets:
+- capa-indisponivel-secult-1000x1100.png
+  Uma única imagem em alta resolução deve ser reutilizada em todos os contextos.
+  O CSS é que respeitará os diferentes tamanhos nativos de capa do Koha.
+- login-ilustracao-secult-1000x1100.png
+- logo-prefeitura-santos-horizontal-900x252.png
+
+Observação:
+As quatro imagens do banner foram extraídas sem recompressão das versões WEBP
+já incorporadas no OpacMainUserBlock homologado. Assim, não há perda adicional
+de qualidade nesta migração para CDN.
+
+banner-desktop-2167x726.webp
+  dimensões: 2167x726
+  tamanho: 452294 bytes
+  sha256: 1c2a7c085b7d8710e9ec1b90bc09d87c0f80784835b2b72f4a76753b840aaa37
+
+banner-laptop-1774x887.webp
+  dimensões: 1774x887
+  tamanho: 534324 bytes
+  sha256: 062139b430eeac37e3a8ff8aa89341966de9b3113b69d0d8612afcff52b42b3b
+
+banner-mobile-1024x1536.webp
+  dimensões: 1024x1536
+  tamanho: 329630 bytes
+  sha256: 439e38daff460cb07120884e35da30ce670ba960658acade2580acbb3948aa1d
+
+banner-tablet-1448x1086.webp
+  dimensões: 1448x1086
+  tamanho: 519854 bytes
+  sha256: 07175598151a43be76ee703e58551f97f3a3c712ed0a8fb838cfe2e969cb3318
+
+capa-indisponivel-secult-1000x1100.png
+  dimensões: 1000x1100
+  tamanho: 142442 bytes
+  sha256: fee1482d9aaa1400165ce41acdc6caf304dd4ba5dd5a95a3dd9b4bed4ff222b9
+
+login-ilustracao-secult-1000x1100.png
+  dimensões: 1000x1100
+  tamanho: 106659 bytes
+  sha256: 18127f283260a0c9bdabba6be4926b130f668b3def360bc33aed5c82fad03cdb
+
+logo-prefeitura-santos-horizontal-900x252.png
+  dimensões: 900x252
+  tamanho: 121257 bytes
+  sha256: 76df9cd24e3b3d5bac4d0d07008211fecabc086470b6370dacdae34a8542f400
